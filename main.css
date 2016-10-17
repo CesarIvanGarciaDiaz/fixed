@@ -1,0 +1,49 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+.fixed{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fixed li {
+  display: inline;
+  float: left;
+}
+
+.fixed li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height:70px;
+  padding: 0px 90px 0 100px;
+
+}
+
+.fixed li:hover{
+  background-color: #30A9DA;
+}
+
+.top-nav {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+}
